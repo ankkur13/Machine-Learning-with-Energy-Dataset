@@ -1,0 +1,80 @@
+2018-03-16 21:40:19,540 - DEBUG - Program Started
+2018-03-16 21:40:28,615 - DEBUG - Loading Data into Dataframe
+2018-03-16 21:41:59,987 - DEBUG - Loading Data into Dataframe
+2018-03-16 21:42:00,690 - DEBUG - Data Size(19735, 29)
+2018-03-16 21:42:09,818 - DEBUG - Tranforming date time
+2018-03-16 21:43:52,588 - DEBUG - Program Started
+2018-03-16 21:44:02,899 - DEBUG - Loading Data into Dataframe
+2018-03-16 21:44:03,240 - DEBUG - Data Size(19735, 29)
+2018-03-16 21:44:04,942 - DEBUG - Program Started
+2018-03-16 21:44:05,338 - DEBUG - Loading Data into Dataframe
+2018-03-16 21:44:05,671 - DEBUG - Data Size(19735, 29)
+2018-03-16 21:45:05,944 - DEBUG - Tranforming date time
+2018-03-16 21:46:58,201 - DEBUG - Creating Column NSM, week_status, day_of_week
+2018-03-16 21:49:14,624 - DEBUG - Checking if the date column is unique for each and every row to be: 
+2018-03-16 21:49:14,624 - DEBUG - True
+2018-03-16 21:57:28,051 - DEBUG - Detecting Outliers for Each variable
+2018-03-16 21:57:28,384 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2018-03-16 21:57:28,384 - DEBUG - Creating function to remove outliers
+2018-03-16 21:58:27,437 - DEBUG - Detecting Outliers for Each variable
+2018-03-16 21:58:27,544 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2018-03-16 21:58:27,547 - DEBUG - Creating function to remove outliers
+2018-03-16 21:58:27,547 - DEBUG - Removing Outliers
+2018-03-16 22:00:25,546 - DEBUG - Program Started
+2018-03-16 22:00:26,230 - DEBUG - Loading Data into Dataframe
+2018-03-16 22:00:26,681 - DEBUG - Data Size(19735, 29)
+2018-03-16 22:00:26,697 - DEBUG - Tranforming date time
+2018-03-16 22:00:26,889 - DEBUG - Creating Column NSM, week_status, day_of_week
+2018-03-16 22:00:27,416 - DEBUG - Checking if the date column is unique for each and every row to be: 
+2018-03-16 22:00:27,416 - DEBUG - True
+2018-03-16 22:00:27,865 - DEBUG - Detecting Outliers for Each variable
+2018-03-16 22:00:27,974 - DEBUG - Calculating Interquartile Range, Major Outlier and Minor Outlier
+2018-03-16 22:00:27,974 - DEBUG - Creating function to remove outliers
+2018-03-16 22:00:27,974 - DEBUG - Removing Outliers
+2018-03-16 22:00:28,462 - DEBUG - Percentage of Data Dropped: 
+2018-03-16 22:00:28,467 - DEBUG - 26.982518368381047
+2018-03-16 22:02:55,108 - DEBUG - Transformation of WeekStatus and Days_of_week columns
+2018-03-16 22:02:55,216 - DEBUG - Concat dummy variable dataframe to the main dataframe
+2018-03-16 22:02:55,229 - DEBUG - Droppin the WeekStatus and Day_of_week column
+2018-03-16 22:03:35,871 - DEBUG - Renaming the column of dummy variables
+2018-03-16 22:05:22,755 - DEBUG - Redefining the Appliances column, adding the consumption of lights and dropping it
+2018-03-16 22:16:50,292 - DEBUG - Feature selection as part of a pipeline
+2018-03-16 22:17:39,671 - DEBUG - Feature selection as part of a pipeline
+2018-03-16 22:19:01,087 - DEBUG - Feature selection as part of a pipeline
+2018-03-16 22:22:06,199 - DEBUG - Feature selection as part of a pipeline
+2018-03-16 22:22:19,132 - DEBUG - Feature selection as part of a pipeline
+2018-03-16 22:22:50,578 - DEBUG - Feature selection as part of a pipeline
+2018-03-16 22:22:50,590 - DEBUG - Splitting for Feature Selection
+2018-03-16 22:22:51,023 - DEBUG - Fitting the random forest
+2018-03-16 22:24:26,358 - DEBUG - Feature selection as part of a pipeline
+2018-03-16 22:24:26,366 - DEBUG - Splitting for Feature Selection
+2018-03-16 22:24:26,366 - DEBUG - Fitting the random forest
+2018-03-16 22:36:05,902 - DEBUG - Feature selection as part of a pipeline
+2018-03-16 22:36:27,612 - DEBUG - Feature selection as part of a pipeline
+2018-03-16 22:36:27,612 - DEBUG - Splitting for Feature Selection
+2018-03-16 22:36:27,632 - DEBUG - Fitting the random forest
+2018-03-16 22:36:33,145 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2018-03-16 22:37:05,001 - DEBUG - Feature selection as part of a pipeline
+2018-03-16 22:37:05,006 - DEBUG - Splitting for Feature Selection
+2018-03-16 22:37:05,006 - DEBUG - Fitting the random forest
+2018-03-16 22:37:09,665 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2018-03-16 22:38:21,352 - DEBUG - Feature selection as part of a pipeline
+2018-03-16 22:38:21,372 - DEBUG - Splitting for Feature Selection
+2018-03-16 22:38:21,372 - DEBUG - Fitting the random forest
+2018-03-16 22:38:26,072 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2018-03-16 22:38:26,182 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2018-03-16 22:38:26,293 - DEBUG - Printing Metrices
+2018-03-16 22:42:13,191 - DEBUG - Loading libraries for feature selection and prediction
+2018-03-16 22:42:13,197 - DEBUG - Splitting for Feature Selection
+2018-03-16 22:42:13,210 - DEBUG - Feature selection as part of a pipeline
+2018-03-16 22:42:13,210 - DEBUG - Fitting the random forest
+2018-03-16 22:42:19,366 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2018-03-16 22:42:19,385 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2018-03-16 22:42:19,455 - DEBUG - Printing Metrices
+2018-03-16 22:43:15,649 - DEBUG - Loading libraries for feature selection and prediction
+2018-03-16 22:43:15,651 - DEBUG - Splitting for Feature Selection
+2018-03-16 22:43:15,655 - DEBUG - Feature selection as part of a pipeline
+2018-03-16 22:43:15,655 - DEBUG - Fitting the random forest
+2018-03-16 22:44:11,279 - DEBUG - Predicting and Calculating the Metrices for Prediction of Testing Dataset
+2018-03-16 22:44:11,296 - DEBUG - Predicting and Calculating the Metrices for Prediction of Training Dataset
+2018-03-16 22:44:11,345 - DEBUG - Printing Metrices

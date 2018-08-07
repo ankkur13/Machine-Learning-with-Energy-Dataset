@@ -1,0 +1,5 @@
+Then run the docker command:
+i. docker built -f Dockerfile.-t <image>:tag
+ii. docker run -it -p 8888:8888 <image>:tag
+
+https://hub.docker.com/r/eklavyasaxena/final_pipeline/
