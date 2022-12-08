@@ -1,7 +1,7 @@
 beautifulsoup4==4.6.0
 boto==2.48.0
 bs4==0.0.1
-certifi==2018.1.18
+certifi==2022.12.7
 chardet==3.0.4
 cycler==0.10.0
 idna==2.6
